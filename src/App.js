@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Plus, LogOut, Bell, CheckCircle, Clock, AlertCircle, Calendar, List, ChevronRight, X, Camera, Upload, Package, TrendingDown, AlertTriangle } from 'lucide-react';
+import { Plus, LogOut, CheckCircle, X, Camera, Package } from 'lucide-react';
 
 const HouseholdTracker = () => {
   const [user, setUser] = useState(null);
